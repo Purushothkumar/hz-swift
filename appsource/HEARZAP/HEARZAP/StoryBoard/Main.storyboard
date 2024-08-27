@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lu5-fu-maQ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Custom Tabbar Controller-->
+        <scene sceneID="HNh-EQ-e7h">
+            <objects>
+                <tabBarController storyboardIdentifier="CustomTabbarController" automaticallyAdjustsScrollViewInsets="NO" id="Wms-cO-QEG" customClass="CustomTabbarController" customModule="HEARZAP" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="d4g-ma-igv"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Era-aa-rBK">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" name="theme_white_FFFFFF"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" name="theme_blue_112F70"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="unselectedItemTintColor">
+                                <color key="value" name="theme_grey_3c3c43_60"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
+                    <connections>
+                        <segue destination="xLU-2x-HS8" kind="relationship" relationship="viewControllers" id="Chk-ex-IOS"/>
+                        <segue destination="SdK-Nf-2FU" kind="relationship" relationship="viewControllers" id="Y08-Zx-GKs"/>
+                        <segue destination="lC0-pK-sqU" kind="relationship" relationship="viewControllers" id="9rU-RI-T1I"/>
+                        <segue destination="0p5-og-euK" kind="relationship" relationship="viewControllers" id="qiX-hR-bvG"/>
+                        <segue destination="DAP-Bt-yVq" kind="relationship" relationship="viewControllers" id="2j7-H8-NZU"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D61-2x-om1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1599" y="-175"/>
+        </scene>
+        <!--HomeStaticViewController-->
+        <scene sceneID="4rA-lW-m2u">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="HomeStaticViewController" storyboardName="Home" referencedIdentifier="HomeStaticViewController" id="W3d-dh-qVu" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="gnl-aI-DfY"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ft3-As-Cc6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="311" y="-1639"/>
+        </scene>
+        <!--HearingCareViewController-->
+        <scene sceneID="T9p-68-Qlo">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="HearingCareViewController" storyboardName="HearingCare" referencedIdentifier="HearingCareViewController" id="gea-1h-BNa" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="vAd-d4-m8v"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkM-TW-5ou" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="341" y="-938"/>
+        </scene>
+        <!--StoreFinderViewController-->
+        <scene sceneID="2wW-W0-tr3">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="StoreFinderViewController" storyboardName="Store" referencedIdentifier="StoreFinderViewController" id="5Td-t6-1fK" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="WtA-h7-vfX"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GuW-fC-F77" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="309" y="536"/>
+        </scene>
+        <!--ShopCategoryViewController-->
+        <scene sceneID="WRB-NV-kla">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="ShopCategoryViewController" storyboardName="Shop" referencedIdentifier="ShopCategoryViewController" id="0xu-cr-UIB" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="8Cp-pp-sgn"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CPc-Br-gIS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="678" y="-169"/>
+        </scene>
+        <!--MenuViewController-->
+        <scene sceneID="bKx-yk-zNf">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="MenuViewController" storyboardName="Menu" referencedIdentifier="MenuViewController" id="Mr9-B1-9Gx" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="PJF-e9-j4u"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M5V-7z-tcd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="309" y="1292"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="MPl-fn-qSO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="xLU-2x-HS8" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="tabHome" selectedImage="tabHomeSelected" id="kda-hC-iT4"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ciF-7B-JCx">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="W3d-dh-qVu" kind="relationship" relationship="rootViewController" id="8pR-Xc-QAC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rR4-Nr-NkX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-433" y="-1638"/>
+        </scene>
+        <!--Hearing Care-->
+        <scene sceneID="DMy-NI-Vdm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="SdK-Nf-2FU" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Hearing Care" image="tabHearingCare" selectedImage="tabHearingCareSelected" id="b2v-hv-7OP"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DDD-k4-PPI">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="gea-1h-BNa" kind="relationship" relationship="rootViewController" id="9Er-3w-GAc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AJV-ff-MB9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-433" y="-938"/>
+        </scene>
+        <!--Stores-->
+        <scene sceneID="Vm4-iP-y1d">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="lC0-pK-sqU" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Stores" image="tabStore" selectedImage="tabStoreSelected" id="rOD-FO-Igh"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jNd-4h-l0v">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="5Td-t6-1fK" kind="relationship" relationship="rootViewController" id="cNj-3i-8DL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6ug-zs-D1O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-433" y="537"/>
+        </scene>
+        <!--Shop-->
+        <scene sceneID="RQq-Oe-hNV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="0p5-og-euK" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Shop" image="tabShop" selectedImage="tabShopSelected" id="6xk-A6-bZo"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tKr-zv-Ogl">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0xu-cr-UIB" kind="relationship" relationship="rootViewController" id="vhI-6l-dRj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7eK-Ak-Bwz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-417" y="-175"/>
+        </scene>
+        <!--Shop-->
+        <scene sceneID="57k-He-51d">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="lu5-fu-maQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Shop" image="tabShop" selectedImage="tabShopSelected" id="0aC-sI-fdD"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Xao-W8-qze">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Wms-cO-QEG" kind="relationship" relationship="rootViewController" id="gyq-Ik-jo8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bll-eh-Jj9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2341" y="-175"/>
+        </scene>
+        <!--Account-->
+        <scene sceneID="c8z-sL-6xY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="DAP-Bt-yVq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Account" image="tabAccount" selectedImage="tabAccountSelected" id="lvi-J2-gV2"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="56X-i7-VJN">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Mr9-B1-9Gx" kind="relationship" relationship="rootViewController" id="3Y0-Fg-nVr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pNm-vx-XnP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-433" y="1292"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabAccount" width="23" height="23"/>
+        <image name="tabAccountSelected" width="23" height="23"/>
+        <image name="tabHearingCare" width="21" height="21"/>
+        <image name="tabHearingCareSelected" width="21" height="21"/>
+        <image name="tabHome" width="23" height="23"/>
+        <image name="tabHomeSelected" width="23" height="23"/>
+        <image name="tabShop" width="23" height="23"/>
+        <image name="tabShopSelected" width="23" height="23"/>
+        <image name="tabStore" width="23" height="23"/>
+        <image name="tabStoreSelected" width="23" height="23"/>
+        <namedColor name="theme_blue_112F70">
+            <color red="0.067000001668930054" green="0.18400000035762787" blue="0.43900001049041748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="theme_grey_3c3c43_60">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.60000002384185791" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="theme_white_FFFFFF">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ThreeDotCircleView" customModule="HEARZAP" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundView" destination="qff-De-5aV" id="xrh-Ve-fwk"/>
+                <outlet property="button1" destination="Ynx-Zn-61A" id="4tU-gv-FPT"/>
+                <outlet property="button2" destination="jRd-q7-qqn" id="aFK-O3-yDD"/>
+                <outlet property="button3" destination="Ry7-NI-eYR" id="Ybn-bj-2C4"/>
+                <outlet property="view1" destination="kLN-eG-GHD" id="zxu-Th-SO2"/>
+                <outlet property="view2" destination="qTm-ok-DX9" id="kcn-lZ-H6a"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="BLs-hP-wWN">
+            <rect key="frame" x="0.0" y="0.0" width="362" height="68"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qff-De-5aV">
+                    <rect key="frame" x="0.0" y="0.0" width="362" height="68"/>
+                    <subviews>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ynx-Zn-61A" customClass="FootnoteOutlineButton" customModule="HEARZAP" customModuleProvider="target">
+                            <rect key="frame" x="133" y="28" width="12" height="12"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="Ynx-Zn-61A" secondAttribute="height" multiplier="1:1" id="PyM-aF-wLV"/>
+                                <constraint firstAttribute="width" constant="12" id="vqf-jr-pQ5"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="13"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="circlegrey"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isShimmering" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kLN-eG-GHD">
+                            <rect key="frame" x="150" y="33" width="20" height="2"/>
+                            <color key="backgroundColor" name="theme_grey_3C3C43_18"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="2" id="FPv-Tz-wXm"/>
+                                <constraint firstAttribute="width" constant="20" id="PFe-Mq-MIx"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isShimmering" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jRd-q7-qqn" customClass="FootnoteOutlineButton" customModule="HEARZAP" customModuleProvider="target">
+                            <rect key="frame" x="175" y="28" width="12" height="12"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="12" id="jc2-UK-fz1"/>
+                                <constraint firstAttribute="width" secondItem="jRd-q7-qqn" secondAttribute="height" multiplier="1:1" id="oAM-Qy-rQw"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="13"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="circlegrey"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isShimmering" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qTm-ok-DX9">
+                            <rect key="frame" x="192" y="33" width="20" height="2"/>
+                            <color key="backgroundColor" name="theme_grey_3C3C43_18"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="20" id="BLf-5e-aCg"/>
+                                <constraint firstAttribute="height" constant="2" id="VSd-8f-yTQ"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isShimmering" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ry7-NI-eYR" customClass="FootnoteOutlineButton" customModule="HEARZAP" customModuleProvider="target">
+                            <rect key="frame" x="217" y="28" width="12" height="12"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="12" id="9Oq-pm-Dt1"/>
+                                <constraint firstAttribute="width" secondItem="Ry7-NI-eYR" secondAttribute="height" multiplier="1:1" id="sp7-4o-hBw"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="13"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="circlegrey"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isShimmering" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" name="theme_yellow_FFFCEC"/>
+                    <constraints>
+                        <constraint firstItem="Ynx-Zn-61A" firstAttribute="centerY" secondItem="kLN-eG-GHD" secondAttribute="centerY" id="0ni-Ml-OeP"/>
+                        <constraint firstItem="Ry7-NI-eYR" firstAttribute="centerY" secondItem="qTm-ok-DX9" secondAttribute="centerY" id="DYo-qS-AwJ"/>
+                        <constraint firstItem="jRd-q7-qqn" firstAttribute="leading" secondItem="kLN-eG-GHD" secondAttribute="trailing" constant="5" id="EL8-Rd-OXA"/>
+                        <constraint firstItem="jRd-q7-qqn" firstAttribute="centerY" secondItem="qTm-ok-DX9" secondAttribute="centerY" id="H0D-S6-oTf"/>
+                        <constraint firstItem="kLN-eG-GHD" firstAttribute="leading" secondItem="Ynx-Zn-61A" secondAttribute="trailing" constant="5" id="Nsw-tt-WPa"/>
+                        <constraint firstItem="qTm-ok-DX9" firstAttribute="leading" secondItem="jRd-q7-qqn" secondAttribute="trailing" constant="5" id="Rlk-hM-PTn"/>
+                        <constraint firstItem="jRd-q7-qqn" firstAttribute="centerY" secondItem="qff-De-5aV" secondAttribute="centerY" id="V1f-kN-PJu"/>
+                        <constraint firstItem="Ry7-NI-eYR" firstAttribute="leading" secondItem="qTm-ok-DX9" secondAttribute="trailing" constant="5" id="Wv2-KM-YpC"/>
+                        <constraint firstItem="jRd-q7-qqn" firstAttribute="centerX" secondItem="qff-De-5aV" secondAttribute="centerX" id="mJJ-XG-Nei"/>
+                        <constraint firstItem="kLN-eG-GHD" firstAttribute="centerY" secondItem="jRd-q7-qqn" secondAttribute="centerY" id="v07-Qi-lG2"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isShimmering" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="zAF-hm-YrH"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="qff-De-5aV" secondAttribute="trailing" id="Eut-w0-cf6"/>
+                <constraint firstItem="qff-De-5aV" firstAttribute="top" secondItem="BLs-hP-wWN" secondAttribute="top" id="oqQ-6k-wtk"/>
+                <constraint firstItem="qff-De-5aV" firstAttribute="leading" secondItem="BLs-hP-wWN" secondAttribute="leading" id="rsC-60-rKz"/>
+                <constraint firstAttribute="bottom" secondItem="qff-De-5aV" secondAttribute="bottom" id="xVl-fr-eCX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-339.13043478260875" y="34.821428571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="circlegrey" width="12" height="12"/>
+        <namedColor name="theme_grey_3C3C43_18">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.17999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="theme_yellow_FFFCEC">
+            <color red="1" green="0.9882352941176471" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

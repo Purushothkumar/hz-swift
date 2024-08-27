@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="5376" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ColorTitleNavigationBar" customModule="HEARZAP" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundView" destination="RoD-1F-gZ3" id="3c0-lu-CmI"/>
+                <outlet property="leftButton" destination="kev-r9-p5q" id="CaH-A4-5I2"/>
+                <outlet property="leftImageView" destination="dy1-Re-LuP" id="6zD-gi-Hus"/>
+                <outlet property="leftView" destination="mvn-rC-RNV" id="ope-29-vzL"/>
+                <outlet property="leftViewHeight" destination="85V-SI-28x" id="RrT-SA-p6G"/>
+                <outlet property="rightButton" destination="I5D-xL-JgC" id="pcq-So-q3U"/>
+                <outlet property="rightImageView" destination="6od-5q-Fun" id="tee-wc-MVT"/>
+                <outlet property="rightView" destination="E3T-mE-V7x" id="aZ8-2b-JHA"/>
+                <outlet property="rightViewHeight" destination="sEj-6X-LVc" id="bt8-t5-TUh"/>
+                <outlet property="titlelabel" destination="MVd-dw-LfU" id="Mog-AX-pYa"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="XBJ-1E-t7k">
+            <rect key="frame" x="0.0" y="0.0" width="362" height="68"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RoD-1F-gZ3">
+                    <rect key="frame" x="0.0" y="0.0" width="362" height="68"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVd-dw-LfU" customClass="BodyFontLabel" customModule="HEARZAP" customModuleProvider="target">
+                            <rect key="frame" x="162.5" y="25.5" width="37" height="17.5"/>
+                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
+                            <color key="textColor" name="theme_white_FFFFFF"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mvn-rC-RNV">
+                            <rect key="frame" x="10" y="12" width="44" height="44"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dy1-Re-LuP">
+                                    <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kev-r9-p5q" customClass="FootnoteOutlineButton" customModule="HEARZAP" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="20"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal">
+                                        <color key="titleColor" name="theme_white_FFFFFF"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="leftButtonPressed:" destination="-1" eventType="touchUpInside" id="GDT-fx-BXy"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="dy1-Re-LuP" firstAttribute="top" secondItem="mvn-rC-RNV" secondAttribute="top" id="19K-yO-jgh"/>
+                                <constraint firstAttribute="bottom" secondItem="dy1-Re-LuP" secondAttribute="bottom" id="3Sl-3x-15n"/>
+                                <constraint firstAttribute="height" constant="44" id="85V-SI-28x"/>
+                                <constraint firstAttribute="width" secondItem="mvn-rC-RNV" secondAttribute="height" multiplier="1:1" id="Byp-Zp-UD0"/>
+                                <constraint firstAttribute="trailing" secondItem="dy1-Re-LuP" secondAttribute="trailing" id="RQU-O8-uGt"/>
+                                <constraint firstAttribute="trailing" secondItem="kev-r9-p5q" secondAttribute="trailing" id="SbP-oj-BlU"/>
+                                <constraint firstItem="kev-r9-p5q" firstAttribute="leading" secondItem="mvn-rC-RNV" secondAttribute="leading" id="Syh-CB-qvY"/>
+                                <constraint firstAttribute="bottom" secondItem="kev-r9-p5q" secondAttribute="bottom" id="ZKT-Th-Glo"/>
+                                <constraint firstItem="dy1-Re-LuP" firstAttribute="leading" secondItem="mvn-rC-RNV" secondAttribute="leading" id="fWu-H6-FLJ"/>
+                                <constraint firstItem="kev-r9-p5q" firstAttribute="top" secondItem="mvn-rC-RNV" secondAttribute="top" id="fzb-N8-Otj"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E3T-mE-V7x">
+                            <rect key="frame" x="308" y="12" width="44" height="44"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6od-5q-Fun">
+                                    <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5D-xL-JgC" customClass="FootnoteOutlineButton" customModule="HEARZAP" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="20"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal">
+                                        <color key="titleColor" name="theme_white_FFFFFF"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="rightButtonPressed:" destination="-1" eventType="touchUpInside" id="C96-5F-9ZB"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="6od-5q-Fun" firstAttribute="top" secondItem="E3T-mE-V7x" secondAttribute="top" id="2s4-He-WaO"/>
+                                <constraint firstAttribute="trailing" secondItem="6od-5q-Fun" secondAttribute="trailing" id="830-MH-oMK"/>
+                                <constraint firstAttribute="trailing" secondItem="I5D-xL-JgC" secondAttribute="trailing" id="ATF-Yp-4H5"/>
+                                <constraint firstItem="I5D-xL-JgC" firstAttribute="top" secondItem="E3T-mE-V7x" secondAttribute="top" id="GH6-sP-kmo"/>
+                                <constraint firstAttribute="width" secondItem="E3T-mE-V7x" secondAttribute="height" multiplier="1:1" id="JhO-vr-qyZ"/>
+                                <constraint firstItem="6od-5q-Fun" firstAttribute="leading" secondItem="E3T-mE-V7x" secondAttribute="leading" id="Sz4-gV-bJ8"/>
+                                <constraint firstAttribute="bottom" secondItem="I5D-xL-JgC" secondAttribute="bottom" id="W0g-Nu-X0G"/>
+                                <constraint firstAttribute="bottom" secondItem="6od-5q-Fun" secondAttribute="bottom" id="kfe-nt-FBN"/>
+                                <constraint firstItem="I5D-xL-JgC" firstAttribute="leading" secondItem="E3T-mE-V7x" secondAttribute="leading" id="pJ1-ag-1NH"/>
+                                <constraint firstAttribute="height" constant="44" id="sEj-6X-LVc"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" name="theme_blue_112F70"/>
+                    <constraints>
+                        <constraint firstItem="MVd-dw-LfU" firstAttribute="centerX" secondItem="RoD-1F-gZ3" secondAttribute="centerX" id="0It-RS-spW"/>
+                        <constraint firstItem="E3T-mE-V7x" firstAttribute="centerY" secondItem="RoD-1F-gZ3" secondAttribute="centerY" id="0i4-Gm-S7N"/>
+                        <constraint firstItem="mvn-rC-RNV" firstAttribute="centerY" secondItem="RoD-1F-gZ3" secondAttribute="centerY" id="K80-n4-AaP"/>
+                        <constraint firstItem="mvn-rC-RNV" firstAttribute="leading" secondItem="RoD-1F-gZ3" secondAttribute="leading" constant="10" id="SoR-ZZ-nqf"/>
+                        <constraint firstItem="MVd-dw-LfU" firstAttribute="centerY" secondItem="RoD-1F-gZ3" secondAttribute="centerY" id="Sxq-SC-gri"/>
+                        <constraint firstItem="E3T-mE-V7x" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="MVd-dw-LfU" secondAttribute="trailing" constant="5" id="TCe-Da-YmS"/>
+                        <constraint firstAttribute="trailing" secondItem="E3T-mE-V7x" secondAttribute="trailing" constant="10" id="VCE-Is-kzc"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="MVd-dw-LfU" secondAttribute="bottom" constant="5" id="gfr-6x-5Hp"/>
+                        <constraint firstItem="MVd-dw-LfU" firstAttribute="top" relation="greaterThanOrEqual" secondItem="RoD-1F-gZ3" secondAttribute="top" constant="5" id="jVX-5H-3Ko"/>
+                        <constraint firstItem="MVd-dw-LfU" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mvn-rC-RNV" secondAttribute="trailing" constant="5" id="s7a-Nr-av2"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="ls9-CR-2YY"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="RoD-1F-gZ3" secondAttribute="bottom" id="CqX-A4-4J2"/>
+                <constraint firstItem="RoD-1F-gZ3" firstAttribute="leading" secondItem="XBJ-1E-t7k" secondAttribute="leading" id="Ehy-Di-9i9"/>
+                <constraint firstItem="RoD-1F-gZ3" firstAttribute="top" secondItem="XBJ-1E-t7k" secondAttribute="top" id="kjf-cf-djD"/>
+                <constraint firstAttribute="trailing" secondItem="RoD-1F-gZ3" secondAttribute="trailing" id="v5o-j4-OL7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-242.0289855072464" y="123.88392857142857"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="theme_blue_112F70">
+            <color red="0.067000001668930054" green="0.18400000035762787" blue="0.43900001049041748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="theme_white_FFFFFF">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

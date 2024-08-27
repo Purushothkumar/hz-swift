@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CompareProductHeaderView" customModule="HEARZAP" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundView" destination="qff-De-5aV" id="xrh-Ve-fwk"/>
+                <outlet property="brandLabel" destination="VJN-5E-2ig" id="MGw-th-Gh2"/>
+                <outlet property="modelLabel" destination="Rt8-N6-sFY" id="arp-DS-Xqg"/>
+                <outlet property="priceLabel" destination="YYk-Uh-NW4" id="ncR-eX-6fF"/>
+                <outlet property="styleLabel" destination="lr7-D5-uOP" id="ty2-wG-bKq"/>
+                <outlet property="view1" destination="kLN-eG-GHD" id="zxu-Th-SO2"/>
+                <outlet property="view2" destination="qTm-ok-DX9" id="kcn-lZ-H6a"/>
+                <outlet property="view3" destination="JK9-Ey-kzK" id="BYY-7k-0hz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="BLs-hP-wWN">
+            <rect key="frame" x="0.0" y="0.0" width="362" height="68"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qff-De-5aV" customClass="ProductCompareHeaderView" customModule="HEARZAP" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="362" height="68"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brand" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJN-5E-2ig" customClass="Caption2FontLabel" customModule="HEARZAP" customModuleProvider="target">
+                            <rect key="frame" x="44.5" y="26.5" width="33" height="15.5"/>
+                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="11"/>
+                            <color key="textColor" name="theme_grey_777777"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isShimmering" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kLN-eG-GHD">
+                            <rect key="frame" x="85.5" y="33" width="35" height="2"/>
+                            <color key="backgroundColor" name="theme_white_F2F2F2"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="2" id="FPv-Tz-wXm"/>
+                                <constraint firstAttribute="width" constant="35" id="PFe-Mq-MIx"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isShimmering" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYk-Uh-NW4" customClass="Caption2FontLabel" customModule="HEARZAP" customModuleProvider="target">
+                            <rect key="frame" x="128.5" y="26.5" width="27" height="15.5"/>
+                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="11"/>
+                            <color key="textColor" name="theme_grey_777777"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isShimmering" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qTm-ok-DX9">
+                            <rect key="frame" x="163.5" y="33" width="35" height="2"/>
+                            <color key="backgroundColor" name="theme_white_F2F2F2"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="35" id="BLf-5e-aCg"/>
+                                <constraint firstAttribute="height" constant="2" id="VSd-8f-yTQ"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isShimmering" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Style" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lr7-D5-uOP" customClass="Caption2FontLabel" customModule="HEARZAP" customModuleProvider="target">
+                            <rect key="frame" x="206.5" y="26.5" width="26.5" height="15.5"/>
+                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="11"/>
+                            <color key="textColor" name="theme_grey_777777"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isShimmering" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JK9-Ey-kzK">
+                            <rect key="frame" x="241" y="33" width="35" height="2"/>
+                            <color key="backgroundColor" name="theme_white_F2F2F2"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="2" id="hHY-0g-3X1"/>
+                                <constraint firstAttribute="width" constant="35" id="z5g-ve-PG3"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isShimmering" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Model" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rt8-N6-sFY" customClass="Caption2FontLabel" customModule="HEARZAP" customModuleProvider="target">
+                            <rect key="frame" x="284" y="26.5" width="33.5" height="15.5"/>
+                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="11"/>
+                            <color key="textColor" name="theme_grey_777777"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isShimmering" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" name="theme_white_FFFFFF"/>
+                    <constraints>
+                        <constraint firstItem="JK9-Ey-kzK" firstAttribute="leading" secondItem="lr7-D5-uOP" secondAttribute="trailing" constant="8" id="01P-Uz-6Z4"/>
+                        <constraint firstItem="qTm-ok-DX9" firstAttribute="centerY" secondItem="qff-De-5aV" secondAttribute="centerY" id="6zv-NU-6xk"/>
+                        <constraint firstItem="JK9-Ey-kzK" firstAttribute="centerY" secondItem="lr7-D5-uOP" secondAttribute="centerY" id="Awv-dU-iBq"/>
+                        <constraint firstItem="lr7-D5-uOP" firstAttribute="centerY" secondItem="qTm-ok-DX9" secondAttribute="centerY" id="Ktb-Zq-tHF"/>
+                        <constraint firstItem="YYk-Uh-NW4" firstAttribute="leading" secondItem="kLN-eG-GHD" secondAttribute="trailing" constant="8" id="N1l-bg-FsV"/>
+                        <constraint firstItem="Rt8-N6-sFY" firstAttribute="centerY" secondItem="JK9-Ey-kzK" secondAttribute="centerY" id="OEP-4T-4WX"/>
+                        <constraint firstItem="kLN-eG-GHD" firstAttribute="leading" secondItem="VJN-5E-2ig" secondAttribute="trailing" constant="8" id="Qso-fm-SlZ"/>
+                        <constraint firstItem="qTm-ok-DX9" firstAttribute="centerX" secondItem="qff-De-5aV" secondAttribute="centerX" id="aNF-vW-Af7"/>
+                        <constraint firstItem="qTm-ok-DX9" firstAttribute="leading" secondItem="YYk-Uh-NW4" secondAttribute="trailing" constant="8" id="doD-z5-6Kc"/>
+                        <constraint firstItem="YYk-Uh-NW4" firstAttribute="centerY" secondItem="kLN-eG-GHD" secondAttribute="centerY" id="gx1-iQ-qOG"/>
+                        <constraint firstItem="VJN-5E-2ig" firstAttribute="centerY" secondItem="kLN-eG-GHD" secondAttribute="centerY" id="qIk-H0-5QM"/>
+                        <constraint firstItem="lr7-D5-uOP" firstAttribute="leading" secondItem="qTm-ok-DX9" secondAttribute="trailing" constant="8" id="qaW-8X-l8G"/>
+                        <constraint firstItem="YYk-Uh-NW4" firstAttribute="centerY" secondItem="qTm-ok-DX9" secondAttribute="centerY" id="tRx-RQ-jEo"/>
+                        <constraint firstItem="Rt8-N6-sFY" firstAttribute="leading" secondItem="JK9-Ey-kzK" secondAttribute="trailing" constant="8" id="vsF-sH-C52"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="zAF-hm-YrH"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="qff-De-5aV" secondAttribute="trailing" id="Eut-w0-cf6"/>
+                <constraint firstItem="qff-De-5aV" firstAttribute="top" secondItem="BLs-hP-wWN" secondAttribute="top" id="oqQ-6k-wtk"/>
+                <constraint firstItem="qff-De-5aV" firstAttribute="leading" secondItem="BLs-hP-wWN" secondAttribute="leading" id="rsC-60-rKz"/>
+                <constraint firstAttribute="bottom" secondItem="qff-De-5aV" secondAttribute="bottom" id="xVl-fr-eCX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-339.13043478260875" y="34.821428571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="theme_grey_777777">
+            <color red="0.46666666666666667" green="0.46666666666666667" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="theme_white_F2F2F2">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="theme_white_FFFFFF">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

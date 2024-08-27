@@ -1,0 +1,173 @@
+%PDF-1.7
+
+1 0 obj
+  << /Type /XObject
+     /Length 2 0 R
+     /Group << /Type /Group
+               /S /Transparency
+            >>
+     /Subtype /Form
+     /Resources << >>
+     /BBox [ 0.000000 0.000000 20.546631 20.546722 ]
+  >>
+stream
+/DeviceRGB CS
+/DeviceRGB cs
+q
+0.938271 0.345900 -0.345900 0.938271 6.709868 -3.188404 cm
+1.000000 0.392157 0.509804 scn
+4.000000 18.398163 m
+6.210000 18.398163 8.000000 16.643162 8.000000 14.478163 c
+8.000000 16.643162 9.790000 18.398163 12.000000 18.398163 c
+14.210000 18.398163 16.000000 16.643162 16.000000 14.478163 c
+16.000000 11.215162 12.766001 10.064163 8.392000 4.870163 c
+8.343844 4.813118 8.283818 4.767270 8.216113 4.735821 c
+8.148408 4.704371 8.074654 4.688078 8.000000 4.688078 c
+7.925347 4.688078 7.851593 4.704371 7.783887 4.735821 c
+7.716182 4.767270 7.656156 4.813118 7.608000 4.870163 c
+3.234000 10.064163 0.000000 11.215162 0.000000 14.478163 c
+0.000000 16.643162 1.790000 18.398163 4.000000 18.398163 c
+h
+f
+n
+Q
+
+endstream
+endobj
+
+2 0 obj
+  732
+endobj
+
+3 0 obj
+  << /Type /XObject
+     /Length 4 0 R
+     /Group << /Type /Group
+               /S /Transparency
+            >>
+     /Subtype /Form
+     /Resources << >>
+     /BBox [ 0.000000 0.000000 20.546631 20.546722 ]
+  >>
+stream
+/DeviceRGB CS
+/DeviceRGB cs
+q
+0.938271 0.345900 -0.345900 0.938271 7.107108 -4.266075 cm
+0.000000 0.000000 0.000000 scn
+0.000000 20.546722 m
+16.000000 20.546722 l
+16.000000 4.546722 l
+0.000000 4.546722 l
+0.000000 20.546722 l
+h
+f
+n
+Q
+
+endstream
+endobj
+
+4 0 obj
+  233
+endobj
+
+5 0 obj
+  << /Type /XObject
+     /Length 6 0 R
+     /Group << /Type /Group
+               /S /Transparency
+            >>
+     /Subtype /Form
+     /Resources << /XObject << /X1 1 0 R >>
+                   /ExtGState << /E1 << /SMask << /Type /Mask
+                                                  /G 3 0 R
+                                                  /S /Alpha
+                                               >>
+                                        /Type /ExtGState
+                                     >> >>
+                >>
+     /BBox [ 0.000000 0.000000 20.546631 20.546722 ]
+  >>
+stream
+q
+/E1 gs
+/X1 Do
+Q
+
+endstream
+endobj
+
+6 0 obj
+  18
+endobj
+
+7 0 obj
+  << /XObject << /X1 5 0 R >>
+     /ExtGState << /E1 << /ca 0.400000 >> >>
+  >>
+endobj
+
+8 0 obj
+  << /Length 9 0 R >>
+stream
+/DeviceRGB CS
+/DeviceRGB cs
+q
+/E1 gs
+/X1 Do
+Q
+
+endstream
+endobj
+
+9 0 obj
+  46
+endobj
+
+10 0 obj
+  << /Annots []
+     /Type /Page
+     /MediaBox [ 0.000000 0.000000 20.546631 20.546722 ]
+     /Resources 7 0 R
+     /Contents 8 0 R
+     /Parent 11 0 R
+  >>
+endobj
+
+11 0 obj
+  << /Kids [ 10 0 R ]
+     /Count 1
+     /Type /Pages
+  >>
+endobj
+
+12 0 obj
+  << /Pages 11 0 R
+     /Type /Catalog
+  >>
+endobj
+
+xref
+0 13
+0000000000 65535 f
+0000000010 00000 n
+0000000990 00000 n
+0000001012 00000 n
+0000001493 00000 n
+0000001515 00000 n
+0000002153 00000 n
+0000002174 00000 n
+0000002270 00000 n
+0000002372 00000 n
+0000002393 00000 n
+0000002568 00000 n
+0000002644 00000 n
+trailer
+<< /ID [ (some) (id) ]
+   /Root 12 0 R
+   /Size 13
+>>
+startxref
+2705
+%%EOF

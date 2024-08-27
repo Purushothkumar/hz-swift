@@ -1,0 +1,42 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '11.0'
+
+target 'HEARZAP' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for HEARZAP
+
+#  pod 'GooglePlaces', '6.2.1'
+#  pod 'GoogleMaps', '6.2.1'
+  pod 'GooglePlaces'
+  pod 'GoogleMaps'
+  pod 'IQKeyboardManagerSwift'
+  #(IQKeyboardManagerSwift (6.5.15))
+  pod 'razorpay-pod'
+#  pod 'Cosmos', '~> 22.1'
+  pod 'Cosmos', '~> 23.0'
+  pod 'YouTubePlayer'
+  pod 'SwiftGifOrigin'
+#  pod "CTPanoramaView", "~> 1.5"
+  pod 'BottomPopup'
+  pod 'PKCCheck'
+#  pod "SYBlinkAnimationKit"
+  pod 'Charts'
+  pod 'DropDown'
+#  pod 'RSSelectionMenu'
+#  pod 'iOSDropDown'
+#  pod 'UIView-Shimmer', '~> 1.0'
+#  pod 'AMShimmer'
+   pod 'ShimmerEffect-iOS'
+
+  target 'HEARZAPTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'HEARZAPUITests' do
+    # Pods for testing
+  end
+
+end
