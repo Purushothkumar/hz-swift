@@ -155,7 +155,6 @@ extension Optional where Wrapped == String {
     }
 }
 extension NSMutableAttributedString {
-    //
     func setColorForText(textForAttribute: String, withColor color: UIColor = UIColor.colorLiteral.theme_red_FF6961) {
         let range: NSRange = self.mutableString.range(of: textForAttribute, options: .caseInsensitive)
         
